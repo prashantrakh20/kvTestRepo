@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "myterraformgroup" {
     location = "West US 2"
 
     tags = {
-        environment = var.environment
+        environment = "test"
     }
 }
 
